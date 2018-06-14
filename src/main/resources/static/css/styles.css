@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+*{
+	margin:0px;
+	padding:2px;
+}
+.wrapper{
+	background-color:silver;
+	height:1000px;
+	width:1000px;
+}
+.square{
+	height:150px;
+	width:150px;
+	margin:10px;
+	border:2px black solid;
+	display:inline-block;
+	background-color:lightblue;
+	margin-left:60px;
+	text-align:center;
+}
+.activities{
+	height:200px;
+	width:800px;
+	display:block;
+	margin:auto;
+	border:2px black solid;
+	background-color:white;
+	overflow-y:auto;
+}
